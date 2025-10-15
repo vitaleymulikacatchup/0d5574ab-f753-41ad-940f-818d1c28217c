@@ -81,7 +81,6 @@ export default function Home() {
             plans={[
               { id: 'basic', badge: 'Value', price: '$29/mo', subtitle: 'Great for startups', features: ['Basic support', 'Unlimited access'], badgeIcon: 'Sparkles' },
               { id: 'premium', badge: 'Best Value', price: '$99/mo', subtitle: 'For growing businesses', features: ['Priority support', 'Advanced features'], badgeIcon: 'Sparkles' },
-              // Synthesized to meet minimum count
               { id: 'pro', badge: 'Pro', price: '$49/mo', subtitle: 'For professionals', features: ['Basic support', 'Advanced analytics'], badgeIcon: 'Sparkles' }
             ]}
             title="Choose Your Plan"
