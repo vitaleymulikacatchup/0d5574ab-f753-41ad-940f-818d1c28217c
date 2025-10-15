@@ -7,7 +7,7 @@ import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { TrendingUp, Support } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 
 const assetMap = [
   {"id": "heroImage", "url": "https://images.pexels.com/photos/5257759/pexels-photo-5257759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Four colleagues brainstorming around a laptop in a bright, modern office setting."},
@@ -81,8 +81,7 @@ export default function Home() {
           <PricingCardOne
             plans={[
               { id: 'basic', badge: 'Value', price: '$29/mo', subtitle: 'Great for startups', features: ['Basic support', 'Unlimited access'], badgeIcon: TrendingUp },
-              { id: 'premium', badge: 'Best Value', price: '$99/mo', subtitle: 'For growing businesses', features: ['Priority support', 'Advanced features'], badgeIcon: TrendingUp },
-              { id: 'pro', badge: 'Pro', price: '$49/mo', subtitle: 'For professionals', features: ['Basic support', 'Advanced analytics'], badgeIcon: TrendingUp }
+              { id: 'premium', badge: 'Best Value', price: '$99/mo', subtitle: 'For growing businesses', features: ['Priority support', 'Advanced features'], badgeIcon: TrendingUp }
             ]}
             title="Choose Your Plan"
             className="bg-blue-50 text-blue-900"
